@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/my_vehicle_description/my_vehicle_description.egg-info/PKG-INFO
+../../build/my_vehicle_description/my_vehicle_description.egg-info/SOURCES.txt
+../../build/my_vehicle_description/my_vehicle_description.egg-info/dependency_links.txt
+../../build/my_vehicle_description/my_vehicle_description.egg-info/requires.txt
+../../build/my_vehicle_description/my_vehicle_description.egg-info/top_level.txt
+../../build/my_vehicle_description/my_vehicle_description.egg-info/zip-safe
+launch/display.launch.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_mypy.py
+test/test_pep257.py
+test/test_xmllint.py
+urdf/vehicle.urdf.xacro
+urdf/wheel_macro.xacro

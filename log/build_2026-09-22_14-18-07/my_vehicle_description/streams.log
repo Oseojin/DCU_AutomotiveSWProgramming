@@ -1,0 +1,23 @@
+[1.380s] Invoking command in '/home/osj/ros2_ws/src/dcu_vehicle_pkg': PYTHONPATH=/home/osj/ros2_ws/build/my_vehicle_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/osj/ros2_ws/install/my_vehicle_description/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_vehicle_description build --build-base /home/osj/ros2_ws/build/my_vehicle_description/build install --record /home/osj/ros2_ws/build/my_vehicle_description/install.log --install-scripts $base/lib/dcu_vehicle_pkg --single-version-externally-managed install_data
+[1.591s] /usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.591s]   warnings.warn(msg)
+[1.714s] running egg_info
+[1.738s] writing ../../build/my_vehicle_description/my_vehicle_description.egg-info/PKG-INFO
+[1.739s] writing dependency_links to ../../build/my_vehicle_description/my_vehicle_description.egg-info/dependency_links.txt
+[1.740s] writing requirements to ../../build/my_vehicle_description/my_vehicle_description.egg-info/requires.txt
+[1.740s] writing top-level names to ../../build/my_vehicle_description/my_vehicle_description.egg-info/top_level.txt
+[1.764s] reading manifest file '../../build/my_vehicle_description/my_vehicle_description.egg-info/SOURCES.txt'
+[1.765s] writing manifest file '../../build/my_vehicle_description/my_vehicle_description.egg-info/SOURCES.txt'
+[1.766s] running build
+[1.766s] running install
+[1.771s] running install_data
+[1.772s] copying package.xml -> /home/osj/ros2_ws/install/my_vehicle_description/share/my_vehicle_description
+[1.773s] copying launch/display.launch.py -> /home/osj/ros2_ws/install/my_vehicle_description/share/my_vehicle_description/launch
+[1.773s] copying urdf/wheel_macro.xacro -> /home/osj/ros2_ws/install/my_vehicle_description/share/my_vehicle_description/urdf
+[1.774s] copying urdf/vehicle.urdf.xacro -> /home/osj/ros2_ws/install/my_vehicle_description/share/my_vehicle_description/urdf
+[1.775s] running install_egg_info
+[1.814s] removing '/home/osj/ros2_ws/install/my_vehicle_description/lib/python3.14/site-packages/my_vehicle_description-0.1.0-py3.14.egg-info' (and everything under it)
+[1.814s] Copying ../../build/my_vehicle_description/my_vehicle_description.egg-info to /home/osj/ros2_ws/install/my_vehicle_description/lib/python3.14/site-packages/my_vehicle_description-0.1.0-py3.14.egg-info
+[1.816s] running install_scripts
+[1.916s] writing list of installed files to '/home/osj/ros2_ws/build/my_vehicle_description/install.log'
+[1.982s] Invoked command in '/home/osj/ros2_ws/src/dcu_vehicle_pkg' returned '0': PYTHONPATH=/home/osj/ros2_ws/build/my_vehicle_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/osj/ros2_ws/install/my_vehicle_description/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_vehicle_description build --build-base /home/osj/ros2_ws/build/my_vehicle_description/build install --record /home/osj/ros2_ws/build/my_vehicle_description/install.log --install-scripts $base/lib/dcu_vehicle_pkg --single-version-externally-managed install_data

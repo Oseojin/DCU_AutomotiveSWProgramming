@@ -1,0 +1,30 @@
+[1.770s] Invoking command in '/home/osj/ros2_ws/src/my_vehicle_gazebo': PYTHONPATH=/home/osj/ros2_ws/build/my_vehicle_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/osj/ros2_ws/install/my_vehicle_gazebo/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_vehicle_gazebo build --build-base /home/osj/ros2_ws/build/my_vehicle_gazebo/build install --record /home/osj/ros2_ws/build/my_vehicle_gazebo/install.log --install-scripts $base/lib/my_vehicle_gazebo --single-version-externally-managed install_data
+[1.979s] /usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.979s]   warnings.warn(msg)
+[2.100s] running egg_info
+[2.124s] writing ../../build/my_vehicle_gazebo/my_vehicle_gazebo.egg-info/PKG-INFO
+[2.127s] writing dependency_links to ../../build/my_vehicle_gazebo/my_vehicle_gazebo.egg-info/dependency_links.txt
+[2.127s] writing requirements to ../../build/my_vehicle_gazebo/my_vehicle_gazebo.egg-info/requires.txt
+[2.128s] writing top-level names to ../../build/my_vehicle_gazebo/my_vehicle_gazebo.egg-info/top_level.txt
+[2.177s] reading manifest file '../../build/my_vehicle_gazebo/my_vehicle_gazebo.egg-info/SOURCES.txt'
+[2.178s] writing manifest file '../../build/my_vehicle_gazebo/my_vehicle_gazebo.egg-info/SOURCES.txt'
+[2.179s] running build
+[2.179s] running build_py
+[2.179s] copying my_vehicle_gazebo/__init__.py -> /home/osj/ros2_ws/build/my_vehicle_gazebo/build/lib/my_vehicle_gazebo
+[2.180s] copying my_vehicle_gazebo/py.typed -> /home/osj/ros2_ws/build/my_vehicle_gazebo/build/lib/my_vehicle_gazebo
+[2.181s] running install
+[2.189s] running install_lib
+[2.210s] running install_data
+[2.211s] copying resource/my_vehicle_gazebo -> /home/osj/ros2_ws/install/my_vehicle_gazebo/share/ament_index/resource_index/packages
+[2.211s] copying package.xml -> /home/osj/ros2_ws/install/my_vehicle_gazebo/share/my_vehicle_gazebo
+[2.212s] copying launch/spawn_car.launch.py -> /home/osj/ros2_ws/install/my_vehicle_gazebo/share/my_vehicle_gazebo/launch
+[2.213s] copying worlds/car_track.sdf -> /home/osj/ros2_ws/install/my_vehicle_gazebo/share/my_vehicle_gazebo/worlds
+[2.214s] copying config/bridge.yaml -> /home/osj/ros2_ws/install/my_vehicle_gazebo/share/my_vehicle_gazebo/config
+[2.215s] copying urdf/wheel_macro.xacro -> /home/osj/ros2_ws/install/my_vehicle_gazebo/share/my_vehicle_gazebo/urdf
+[2.216s] copying urdf/vehicle.urdf.xacro -> /home/osj/ros2_ws/install/my_vehicle_gazebo/share/my_vehicle_gazebo/urdf
+[2.217s] running install_egg_info
+[2.239s] removing '/home/osj/ros2_ws/install/my_vehicle_gazebo/lib/python3.14/site-packages/my_vehicle_gazebo-0.1.0-py3.14.egg-info' (and everything under it)
+[2.240s] Copying ../../build/my_vehicle_gazebo/my_vehicle_gazebo.egg-info to /home/osj/ros2_ws/install/my_vehicle_gazebo/lib/python3.14/site-packages/my_vehicle_gazebo-0.1.0-py3.14.egg-info
+[2.242s] running install_scripts
+[2.340s] writing list of installed files to '/home/osj/ros2_ws/build/my_vehicle_gazebo/install.log'
+[2.395s] Invoked command in '/home/osj/ros2_ws/src/my_vehicle_gazebo' returned '0': PYTHONPATH=/home/osj/ros2_ws/build/my_vehicle_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/osj/ros2_ws/install/my_vehicle_gazebo/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_vehicle_gazebo build --build-base /home/osj/ros2_ws/build/my_vehicle_gazebo/build install --record /home/osj/ros2_ws/build/my_vehicle_gazebo/install.log --install-scripts $base/lib/my_vehicle_gazebo --single-version-externally-managed install_data

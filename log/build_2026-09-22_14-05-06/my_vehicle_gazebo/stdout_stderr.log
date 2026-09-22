@@ -1,0 +1,36 @@
+/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+creating ../../build/my_vehicle_gazebo/my_vehicle_gazebo.egg-info
+writing ../../build/my_vehicle_gazebo/my_vehicle_gazebo.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_vehicle_gazebo/my_vehicle_gazebo.egg-info/dependency_links.txt
+writing requirements to ../../build/my_vehicle_gazebo/my_vehicle_gazebo.egg-info/requires.txt
+writing top-level names to ../../build/my_vehicle_gazebo/my_vehicle_gazebo.egg-info/top_level.txt
+writing manifest file '../../build/my_vehicle_gazebo/my_vehicle_gazebo.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_vehicle_gazebo/my_vehicle_gazebo.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_vehicle_gazebo/my_vehicle_gazebo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/osj/ros2_ws/build/my_vehicle_gazebo/build/lib/my_vehicle_gazebo
+copying my_vehicle_gazebo/__init__.py -> /home/osj/ros2_ws/build/my_vehicle_gazebo/build/lib/my_vehicle_gazebo
+copying my_vehicle_gazebo/py.typed -> /home/osj/ros2_ws/build/my_vehicle_gazebo/build/lib/my_vehicle_gazebo
+running install
+running install_lib
+creating /home/osj/ros2_ws/install/my_vehicle_gazebo/lib/python3.14/site-packages/my_vehicle_gazebo
+copying /home/osj/ros2_ws/build/my_vehicle_gazebo/build/lib/my_vehicle_gazebo/py.typed -> /home/osj/ros2_ws/install/my_vehicle_gazebo/lib/python3.14/site-packages/my_vehicle_gazebo
+copying /home/osj/ros2_ws/build/my_vehicle_gazebo/build/lib/my_vehicle_gazebo/__init__.py -> /home/osj/ros2_ws/install/my_vehicle_gazebo/lib/python3.14/site-packages/my_vehicle_gazebo
+byte-compiling /home/osj/ros2_ws/install/my_vehicle_gazebo/lib/python3.14/site-packages/my_vehicle_gazebo/__init__.py to __init__.cpython-314.pyc
+running install_data
+creating /home/osj/ros2_ws/install/my_vehicle_gazebo/share/ament_index/resource_index/packages
+copying resource/my_vehicle_gazebo -> /home/osj/ros2_ws/install/my_vehicle_gazebo/share/ament_index/resource_index/packages
+copying package.xml -> /home/osj/ros2_ws/install/my_vehicle_gazebo/share/my_vehicle_gazebo
+creating /home/osj/ros2_ws/install/my_vehicle_gazebo/share/my_vehicle_gazebo/launch
+copying launch/spawn_car.launch.py -> /home/osj/ros2_ws/install/my_vehicle_gazebo/share/my_vehicle_gazebo/launch
+creating /home/osj/ros2_ws/install/my_vehicle_gazebo/share/my_vehicle_gazebo/worlds
+copying worlds/car_track.sdf -> /home/osj/ros2_ws/install/my_vehicle_gazebo/share/my_vehicle_gazebo/worlds
+creating /home/osj/ros2_ws/install/my_vehicle_gazebo/share/my_vehicle_gazebo/config
+copying config/bridge.yaml -> /home/osj/ros2_ws/install/my_vehicle_gazebo/share/my_vehicle_gazebo/config
+running install_egg_info
+Copying ../../build/my_vehicle_gazebo/my_vehicle_gazebo.egg-info to /home/osj/ros2_ws/install/my_vehicle_gazebo/lib/python3.14/site-packages/my_vehicle_gazebo-0.1.0-py3.14.egg-info
+running install_scripts
+writing list of installed files to '/home/osj/ros2_ws/build/my_vehicle_gazebo/install.log'
