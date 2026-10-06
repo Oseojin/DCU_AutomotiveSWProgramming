@@ -1,0 +1,103 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Views
+    Name: Views
+Visualization Manager:
+  Class: ""
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Fixed Frame: base_link
+    Frame Rate: 30
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Grid
+      Enabled: true
+      Cell Size: 1
+      Plane Cell Count: 30
+    - Class: rviz_default_plugins/RobotModel
+      Name: Vehicle
+      Enabled: true
+      Description Source: Topic
+      Description Topic:
+        Value: /robot_description
+        Depth: 1
+        Durability Policy: Transient Local
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+      Visual Enabled: true
+      Collision Enabled: false
+      Alpha: 1
+    - Class: rviz_default_plugins/TF
+      Name: Sensor Frames
+      Enabled: true
+      Show Names: true
+      Show Axes: true
+      Show Arrows: false
+      Marker Scale: 0.3
+    - Class: rviz_default_plugins/LaserScan
+      Name: LiDAR
+      Enabled: true
+      Topic:
+        Value: /scan
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Best Effort
+      Style: Points
+      Size (m): 0.05
+      Size (Pixels): 3
+      Decay Time: 0
+      Position Transformer: XYZ
+      Color Transformer: AxisColor
+      Axis: X
+      Use Fixed Frame: true
+    - Class: rviz_default_plugins/Image
+      Name: Front Camera
+      Enabled: true
+      Topic:
+        Value: /camera/image_raw
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Best Effort
+      Transport Hint: raw
+      Normalize Range: true
+    - Class: rviz_imu_plugin/Imu
+      Name: IMU
+      Enabled: true
+      Topic:
+        Value: /imu/data
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Best Effort
+      fixed_frame_orientation: true
+      Axes properties:
+        Enable axes: true
+        Axes scale: 0.5
+      Acceleration properties:
+        Enable acceleration: true
+        Derotate acceleration: false
+        Acc. vector scale: 0.1
+        Acc. vector color: 255; 170; 0
+        Acc. vector alpha: 1
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 8
+      Focal Point:
+        X: 0
+        Y: 0
+        Z: 0.2
+      Pitch: 0.65
+      Yaw: 0.8
+      Target Frame: base_link
+Window Geometry:
+  Width: 1400
+  Height: 900

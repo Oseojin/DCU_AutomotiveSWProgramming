@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<robot name="auto_vehicle" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <!-- Reuse the original chassis and wheels without editing the vehicle package. -->
+  <xacro:include filename="$(find my_vehicle_gazebo)/urdf/vehicle.urdf.xacro"/>
+  <xacro:include filename="vehicle_sensors.xacro"/>
+</robot>
